@@ -1,0 +1,14 @@
+[package]
+name = "hlplanning.sketchup.findreplace"
+title = "Find and Replace Extension"
+version = "1.0.0"
+description = "An extension for find and replace functionality with dynamic input fields."
+tags = ["Omniverse", "Find Replace"]
+
+[dependencies]
+"omni.kit.widget.viewport" = {}
+"omni.ui" = {}
+
+[[extensions]]
+# Main entry file for your extension
+module = "find_replace_extension"
